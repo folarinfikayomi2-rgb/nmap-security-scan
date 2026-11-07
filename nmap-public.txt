@@ -1,0 +1,11 @@
+# Nmap 7.98 scan initiated Sat Nov  7 12:56:12 2026 as: nmap -T4 -oN nmap-scan.txt 192.168.0.1
+Nmap scan report for 192.168.0.1
+Host is up (0.0023s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT    STATE SERVICE
+53/tcp  open  domain
+80/tcp  open  http
+443/tcp open  https
+MAC Address: [REDACTED]
+
+# Nmap done at Sat Nov  7 12:57:34 2026 -- 1 IP address (1 host up) scanned in 82.06 seconds

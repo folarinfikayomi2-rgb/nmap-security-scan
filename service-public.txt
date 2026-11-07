@@ -1,0 +1,57 @@
+# Nmap 7.98 scan initiated Sat Nov  7 12:58:15 2026 as: nmap -sV -T4 -oN service-versions.txt 192.168.0.1
+Warning: 192.168.0.1 giving up on port because retransmission cap hit (6).
+WARNING: Service 192.168.0.1:80 had already soft-matched rtsp, but now soft-matched sip; ignoring second value
+Nmap scan report for 192.168.0.1
+Host is up (0.0016s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT      STATE    SERVICE    VERSION
+53/tcp    open     domain     dnsmasq 2.90
+80/tcp    open     rtsp
+443/tcp   open     ssl/https?
+30951/tcp filtered unknown
+44176/tcp filtered unknown
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port80-TCP:V=7.98%I=7%D=11/7%Time=6AEF12AF%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,399,"HTTP/1\.0\x20200\x20Ok\r\nDate:\x20Sat,\x2007\x20Nov\x20202
+SF:6\x2011:59:43\x20GMT\r\nX-Frame-Options:\x20DENY\r\nX-XSS-Protection:\x
+SF:201;\x20mode=block\r\nX-Content-Type-Options:\x20nosniff\r\nStrict-Tran
+SF:sport-Security:\x20max-age=31536000;\x20includeSubDomains\r\nReferrer-P
+SF:olicy:\x20strict-origin-when-cross-origin\r\nCross-Origin-Resource-Poli
+SF:cy:\x20same-origin\r\nCache-Control:\x20no-cache,no-store\r\nContent-En
+SF:coding:\x20gzip\r\nContent-Type:\x20text/html;\x20charset=UTF-8\r\nCont
+SF:ent-Length:\x20435\r\nLast-Modified:\x20Sat,\x2018\x20Jul\x202026\x2011
+SF::22:20\x20GMT\r\nConnection:\x20close\r\n\r\n\x1f\x8b\x08\0\0\0\0\0\x02
+SF:\x03\x95SKo\xd40\x10\xfe\+\x83/\x05\x89\$\xe2\xc6!\x8e\x04\xa5\x87\"\x1
+SF:e\x95Z\x04\x9c\"\xc7\x9e&\xee:\x9e`O\x12\xed\xbf\xc7M\xb2j\x97\xaeP{\xb
+SF:13\xd6\xf7\x98W\xcaW\x9f\xbe\x9f\xdf\xfc\xbe\xba\x80\x8e{W\x95\xf7'8\xe
+SF:5\[\)\xd0\x8b\x14\xa32U\xd9#\+\xd0\x9d\n\x11Y\x8a\x91o\xb3\xf7b{\xed\x9
+SF:8\x87\x0c\xff\x8cv\x92\xe2W\xf6\xe3CvN\xfd\xa0\xd86\x0e\x05h\xf2\x8c>Q\
+SF:./\$\x9a\x16\x0f\$\xafz\x94b\xb28\x0f\x14\xf8\x11n\xb6\x86;ip\xb2\x1a\x
+SF:b3%xk\xbde\xab\\\x16\xb5r\(\xdf%\tg\xfd\x0e\x02:\)l\"\n\xe8\x02\xdeJ\xf
+SF:1\xf5\xe6\[\]\x7f\xa1\x96\xea\x8fN\xe9\]>\xf86a\xd9\xb2\xc3\xaa,\xb6{\x
+SF:a1\xaex\x1dc\xa1\x86!O\xb7X\xd5\x86t\x922\x02T\x94\"\xf2\xde\xa1x\xc2\x
+SF:d0\xdd\xe8w\xd9\x84\xdeP\x88/\xe0\xde\xadfw\xa7\xf1:\xd8\x81\x9f\x10\x8
+SF:e\xbd\x9eO\xfd_\x9eKj\xb1C<\xc19\xee\xc6\x11\xb2X\xf7`u\xab\x0c\xe9\xb1
+SF:O\xf3\xca\x97\xae\x82\x04Gi8\xd7LA\xb5\x98\xb7\xc8\x97\x8c\xfdk1cS7\x81
+SF:\xe6\x88\xa1\^\x90\xe2MYl\x12eCf_\x95\x9e\x0eq\xe4@\xbe\xad~\xe2Y@\x88\
+SF:x14\xc2\x1e\x9a\x91!i\x80!\x8c\xfe,}S\xd8\xc1\x10h\xc0\xe0\xf60\[\xee\(
+SF:!>\xabI\]/\"\x80\^\xa5\xb539\\9T\x11\xb7\x18,\x03\xd3\xb2c\xd6\x8f\x98\
+SF:xa7\x1cV\xaf\xb2x\xb07v\x02k\xa4H=\xb8/7\x85\x87j!\x06}z\x1c\xd5C5\xff"
+SF:)%r(HTTPOptions,2DB,"HTTP/1\.0\x20501\x20Not\x20Implemented\r\nDate:\x2
+SF:0Sat,\x2007\x20Nov\x202026\x2011:59:43\x20GMT\r\nX-Frame-Options:\x20DE
+SF:NY\r\nX-XSS-Protection:\x201;\x20mode=block\r\nX-Content-Type-Options:\
+SF:x20nosniff\r\nStrict-Transport-Security:\x20max-age=31536000;\x20includ
+SF:eSubDomains\r\nReferrer-Policy:\x20strict-origin-when-cross-origin\r\nC
+SF:ross-Origin-Resource-Policy:\x20same-origin\r\nCache-Control:\x20no-cac
+SF:he,no-store\r\nContent-Type:\x20text/html;\x20charset=UTF-8\r\nConnecti
+SF:on:\x20close\r\n\r\n<!DOCTYPE\x20html>\n\n<html>\n\n\x20\x20<head>\n\x2
+SF:0\x20\x20\x20<meta\x20http-equiv=\"Content-type\"\x20content=\"text/htm
+SF:l;charset=UTF-8\">\n\x20\x20\x20\x20<title>501\x20Not\x20Implemented</t
+SF:itle>\n\x20\x20</head>\n\n\x20\x20<body\x20bgcolor=\"#cc9999\"\x20text=
+SF:\"#000000\"\x20link=\"#2020ff\"\x20vlink=\"#4040cc\">\n\n\x20\x20\x20\x
+SF:20<h4>501\x20Not\x20Implemented</h4>\nThat\x20method\x20is\x20not\x20im
+SF:plemented\.\n\x20\x20\x20\x20<hr>\n\n\x20\x20</body>\n\n</html>\n");
+MAC Address: [REDACTED]
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Nov  7 13:02:23 2026 -- 1 IP address (1 host up) scanned in 248.12 seconds
